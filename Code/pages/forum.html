@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCI Drones – Forum</title>
+    <link rel="stylesheet" href="../css/forum.css" />
+  </head>
+
+  <body>
+    <header class="site-header slide-nav">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <a href="../index.html">JCI<span>DRONES</span></a>
+          </div>
+
+          <button class="menu-btn" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="nav-items">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="forum.html" class="active">Forum</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-forum">
+      <section class="section forum">
+        <div class="container forum">
+          <div class="forum-header">
+            <h1 class="page-title">Community Forum</h1>
+            <p class="page-text">
+              Share flight tips, camera settings, troubleshooting experiences,
+              and project ideas with other JCI drone users.
+            </p>
+          </div>
+
+          <div class="category">
+            <h2>Hot Categories</h2>
+            <p class="category-title">Filter posts by topic:</p>
+
+            <div class="category-list">
+              <button class="category-tag active" data-category="all">
+                All
+              </button>
+              <button class="category-tag" data-category="tips">
+                Flying Tips
+              </button>
+              <button class="category-tag" data-category="photography">
+                Photography
+              </button>
+              <button class="category-tag" data-category="support">
+                Technical Support
+              </button>
+              <button class="category-tag" data-category="news">
+                Announcements
+              </button>
+            </div>
+          </div>
+
+          <!-- POSTS -->
+          <div id="forum-posts" class="topic-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2025 JCI Drones. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
